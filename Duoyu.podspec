@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Duoyu"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A description of Duoyu."
 
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
-  spec.author             = { "Shibo Sun" => "captain0091@163.com" }
+  spec.author       = { "Shibo Sun" => "captain0091@163.com" }
 
   spec.platform     = :ios, "9.0"
 
