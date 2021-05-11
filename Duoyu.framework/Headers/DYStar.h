@@ -6,14 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RDNavigationController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DYStar : NSObject
 
 +(instancetype)sharedInstance;
--(RDNavigationController*)setRootVc;
+
+-(void)showDuoyu:(NSString *)datastr;
 
 @end
 
