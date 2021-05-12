@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Duoyu"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A description of Duoyu."
 
 
