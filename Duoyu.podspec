@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Duoyu"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A description of Duoyu."
 
 
@@ -49,6 +49,9 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+  spec.dependency 'WechatOpenSDK','~>1.8.7.1'
+  spec.dependency 'Bytedance-UnionAD','~>3.3.6.2'
 
   spec.dependency 'UMCCommon','~>7.2.8'
   spec.dependency 'UMCSecurityPlugins','~>1.0.6'
