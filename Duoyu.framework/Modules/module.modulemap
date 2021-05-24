@@ -1,0 +1,6 @@
+framework module Duoyu {
+  umbrella header "Duoyu.h"
+
+  export *
+  module * { export * }
+}
